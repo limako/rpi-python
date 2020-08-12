@@ -5,9 +5,9 @@ exercises: 0
 questions:
 - "How can you affect the flow of execution in python?"
 objectives:
-- "First learning objective. (FIXME)"
+- "while, try, for, if/then/else can direct the flow of execution"
 keypoints:
-- "First key point. Brief Answer to questions. (FIXME)"
+- "Loops can be unconditional or conditional "
 ---
 
 In arduino programming all of the operation was contained in two functions: one called "setup" that was called once, and one called "loop" that was called over and over again.
@@ -39,10 +39,45 @@ except:
 ~~~
 {: .language-python}
 
-In this example, you shoudl be able to type <kbd>Ctrl-C</kbd> and see the statement "Done!" to show
+In this example, you should be able to type <kbd>Ctrl-C</kbd> and see the statement "Done!" to show
 
-if/else
+This particular structure works like "loop" in Arduino -- that is, it just loops forever. But you can also look only while certain conditions are true. But if you only want to look for a certain number of times, you can use "for."
 
-for
+~~~
+#! /usr/bin/env python3
+try:
+  for x in range(0,4):
+    print("Hello world!")
+except:
+  print("Done!")
+~~~
+{: .language-python}
+
+> ## Question
+>
+> What is the value of "x" during each iteration?
+{: .challenge}
+
+You can use "if" statements to test for conditions which can include "else" clauses for what to do in exceptions.
+
+~~~
+#! /usr/bin/env python3
+try:
+  for x in range(0,4):
+    if (x <3):
+      print("Hello world!")
+    else:
+      print("Goodbye world!")
+except:
+  print("Done!")
+~~~
+{: .language-python}
+
+> ## Try this
+>
+> You can test the modulo as a condition determine whether a value divides evenly by a divisor, e.g. "x % 2 == 0" will only be true for even numbers.
+{: .challenge}
+
+This only scratches the surface for how you might direct flow control.
 
 {% include links.md %}
