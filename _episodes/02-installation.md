@@ -79,7 +79,7 @@ Similarly, to install libraries, the python package installer pip3 (or just pip 
 A library we're likely to need is the serial library, so let's install it now.
 
 ~~~
-$ pip3 install serial
+$ pip3 install pyserial
 ~~~
 {: .language-bash}
 
