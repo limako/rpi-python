@@ -92,7 +92,7 @@ Note that this script will keep running until killed with <kbd>Ctrl-C</kbd>, but
 ~~~
 #! /usr/bin/env python3
 
-import serial,time
+import serial,time # yes, even though the library is "pyserial"
 ser = serial.Serial('/dev/ttyACM0', baudrate = 9600) # open the connection
 try:
   while 1:
