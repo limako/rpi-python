@@ -1,7 +1,7 @@
 ---
 title: "Flow Control"
-teaching: 0
-exercises: 0
+teaching: 30
+exercises: 10
 questions:
 - "How can you affect the flow of execution in python?"
 objectives:

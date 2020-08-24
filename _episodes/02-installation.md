@@ -1,7 +1,7 @@
 ---
 title: "Installation and Setup"
-teaching: 0
-exercises: 0
+teaching: 30
+exercises: 10
 questions:
 - "Is python installed?"
 - "Where is python installed?"

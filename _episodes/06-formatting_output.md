@@ -1,14 +1,15 @@
 ---
 title: "Formatting Output"
-teaching: 0
-exercises: 0
+teaching: 30
+exercises: 10
 questions:
 - "How can python output data?"
 - "How can the format of the output be controlled?"
 objectives:
 - "Use the two forms of formatting for strings"
 keypoints:
-- ""
+- "Combining strings and variables can help structure output."
+- "There's more than one way to do it."
 ---
 
 There are several ways to format output in python. We'll skip the oldest, used in python 2, though you may still see it in older code.  

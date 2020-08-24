@@ -1,7 +1,7 @@
 ---
 title: "Variable in Python"
-teaching: 0
-exercises: 0
+teaching: 30
+exercises: 10
 questions:
 - "How to store and manipulate data symbolically?"
 objectives:
@@ -159,6 +159,6 @@ if (u):
 > Which variables evaluate to TRUE? Under what circumstances?
 {: .challenge}
 
-There many other data types with more esoteric uses -- there is, for example, a BOOL data type that can only be TRUE or FALSE. And types for complex numbers. For most simple projects, however, these types are not needed. 
+There many other data types with more esoteric uses -- there is, for example, a BOOL data type that can only be TRUE or FALSE. And types for complex numbers. For most simple projects, however, these types are not needed.
 
 {% include links.md %}

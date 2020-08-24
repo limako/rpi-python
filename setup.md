@@ -1,7 +1,6 @@
 ---
-title: Setup
+title: Rasberry Pi Python
 ---
-FIXME
-
+Using Python from the shell on the Raspberry Pi.
 
 {% include links.md %}

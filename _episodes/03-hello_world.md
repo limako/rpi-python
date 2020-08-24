@@ -1,7 +1,7 @@
 ---
 title: "Hello World"
-teaching: 0
-exercises: 0
+teaching: 10
+exercises: 10
 questions:
 - "How do I create and run a script in python?"
 objectives:
