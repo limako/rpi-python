@@ -6,9 +6,9 @@ questions:
 - "What else can python do?"
 objectives:
 - "Use libraries to extend python's functionality."
-- "Use libraries to extend python's functionality."
 keypoints:
-- "First key point. Brief Answer to questions. (FIXME)"
+- "Libraries are collections of useful code."
+- "You can make your own libaries too."
 ---
 
 Python is designed so that the core functionality is limited. This makes the language smaller and able to launch and run more quickly with a lower memory footprint. Much of the higher level functionality is available through a giant set of "libraries" that offer additional functions that can be imported at runtime.

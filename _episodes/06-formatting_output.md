@@ -102,7 +102,7 @@ If you inspect the contents of output.txt you'll see the same line was saved the
 
 > ## Question
 >
-> What happens if you run format.py again? How does the contents of out.put.txt change? Can you get the output to end up on separate lines?
+> What happens if you run format.py again? How does the contents of output.txt change? Can you get the output to end up on separate lines?
 {: .challenge}
 
 In the file open function, we specified "a" (for append") as the mode to open the file in, which allows you to add to the existing file. If you use "w" you will overwrite the contents of the file each time you run the program.

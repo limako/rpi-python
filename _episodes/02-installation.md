@@ -10,14 +10,15 @@ questions:
 objectives:
 - ""
 keypoints:
-- "First key point. Brief Answer to questions. (FIXME)"
+- "There are (probably multiple versions of Python already installed."
+- "Virtual environments allow you to set up a custom environment for each project."
 ---
 
 Create a directory in your home directory for our work.
 
 ~~~
-$ mkdir rpi-python
-$ cd rpi-python
+$ mkdir pythonpractice
+$ cd pythonpractice
 ~~~
 {: .language-bash}
 
