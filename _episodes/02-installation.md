@@ -14,7 +14,10 @@ keypoints:
 - "Virtual environments allow you to set up a custom environment for each project."
 ---
 
-Create a directory in your home directory for our work.
+Create a directory in your home directory for our work. (Or, better yet, create a repository
+at github and clone it into your home directory. Github has an excellent python .gitignore file 
+that will prevent you from accidentally including lot of stuff with your commits. Install it and
+look at it.)
 
 ~~~
 $ mkdir pythonpractice
