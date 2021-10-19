@@ -13,13 +13,13 @@ keypoints:
 
 Python is designed so that the core functionality is limited. This makes the language smaller and able to launch and run more quickly with a lower memory footprint. Much of the higher level functionality is available through a giant set of "libraries" that offer additional functions that can be imported at runtime.
 
-The (Python Standard Libraries)[https://docs.python.org/3/library/index.html] are part of python itself. These libraries will be available for use (i.e. "import") without additional installation. There are also public repositories, like the (Python Package Index)[https://pypi.org/] that include a universe of additional libaries to draw from. These libraries probably need to installed and managed (via pip) to be available.
+The [Python Standard Libraries](https://docs.python.org/3/library/index.html) are part of python itself. These libraries will be available for use (i.e. "import") without additional installation. There are also public repositories, like the [Python Package Index](https://pypi.org/) that include a universe of additional libaries to draw from. These libraries probably need to installed and managed (via pip) to be available.
 
 To use the functions in a library, it needs to be included by means of an "import" statement.
 
 ## time
 
-The (time library)[https://docs.python.org/3/library/time.html] has an array of functions for accessing and using system information related to measuring time. Unlike an Arduino, a Raspbery Pi has a real-time clock that will use the network (if available) to maintain an extremely accurate current time value. But there are also functions that allow access to other kinds of time values or to measure the elapsed time between two points. The most basic use might be to access the local time and then emit a string formatted as a time stamp every five seconds.
+The [time library](https://docs.python.org/3/library/time.html) has an array of functions for accessing and using system information related to measuring time. Unlike an Arduino, a Raspbery Pi has a real-time clock that will use the network (if available) to maintain an extremely accurate current time value. But there are also functions that allow access to other kinds of time values or to measure the elapsed time between two points. The most basic use might be to access the local time and then emit a string formatted as a time stamp every five seconds.
 
 ~~~
 #! /usr/bin/env python3
@@ -33,7 +33,7 @@ while True:
 
 ## sys
 
-The (sys library)[https://docs.python.org/3/library/sys.html] provides functions that support creating a unix utility. Many of its utilities are about the script being able to determine what kind of platform its being run on or the configuration of the system. These are mostly beyond the scope of what we're likely to do. But there are a few functions that can help you take advantage of the unix shell.
+The [sys library](https://docs.python.org/3/library/sys.html) provides functions that support creating a unix utility. Many of its utilities are about the script being able to determine what kind of platform its being run on or the configuration of the system. These are mostly beyond the scope of what we're likely to do. But there are a few functions that can help you take advantage of the unix shell.
 
 The first is to accept arguments when you start the program. Create a script called "systest.py"
 
