@@ -87,7 +87,7 @@ The [pyserial](https://github.com/pyserial/pyserial) library allows python to se
 
 We're going to pull together everything we've learned in this lesson to build a script that can receive data from an arduino program. In the [rpi-arduino serial episode](https://limako.github.io/rpi-arduino/06-serial/index.html) we created a sketch that transmitted pairs of numbers recorded from a potentiometer via the serial connection. If you run this program while an arduino is connected and emitting values, you should see those values printed, prefaced by the timestamp we learned to create above.
 
-Note that this script will keep running until killed with <kbd>Ctrl-C</kbd>, but note that we catch the interrupt and graceful close the serial connection before stopping.
+Note that this script will keep running until killed with <kbd>Ctrl-C</kbd>, but note that we catch the interrupt and gracefully close the serial connection before stopping.
 
 ~~~
 #! /usr/bin/env python3
