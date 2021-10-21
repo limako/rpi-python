@@ -92,7 +92,7 @@ a = "hello\n" # \n is a newline character
 b = "world"
 a = a.strip() # this removes white space from both ends
 print(f'{a} to the whole {b}.')
-file = open("output.txt","a",buffering=0)
+file = open("output.txt","a")
 file.write(f'{a} to the whole {b}.')
 file.close()
 ~~~
